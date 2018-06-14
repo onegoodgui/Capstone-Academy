@@ -1,0 +1,63 @@
+html{
+  font-size: 16px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  height: auto;
+  width: 100%;
+  padding: 0 1.5rem;
+  background-color: lightyellow;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header .logo{
+
+}
+
+.header .content{
+  display: flex;
+  height: 4em;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ColmarAcademy{
+
+  height: 2rem;
+  word-spacing: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.Colmar{
+  font-weight: bold;
+}
+
+.Academy{
+  color: lightgrey;
+}
+
+.content .items{
+  text-align: left;
+
+}
+
+.items p {
+  display: inline;
+  padding-left: 1rem;
+}
+
+.logo img{
+  height: 2.5rem;
+  width: auto;
+}
