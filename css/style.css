@@ -61,3 +61,55 @@ body{
   height: 2.5rem;
   width: auto;
 }
+
+/* Learn Something New Everyday */
+.greybox{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: hsla(200, 10%, 85%, 1);
+
+}
+
+
+.greybox img{
+  width: 60%;
+  padding: 2rem 0 2rem 1.5rem;
+}
+
+.greybox .text{
+  display: flex;
+  flex-direction: column;
+  padding-left:1.5rem;
+  /* padding-right: 4rem; */
+  align-content: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+
+.greybox .text h1{
+  font-size: 4vw;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.greybox .text h2{
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.greybox .text .button{
+background-color: #4f4f4f;
+display: inline;
+width: 80%;
+padding: 0.5rem 0;
+margin-bottom: 2rem;
+}
+
+.button p{
+  color: white;
+  text-align: center;
+}
