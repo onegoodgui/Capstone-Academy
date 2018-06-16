@@ -69,7 +69,7 @@ h1,h2{
 
 /* 1st Panel - Learn Something New Everyday */
 .first_panel{
-  height: auto;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -126,7 +126,7 @@ margin-bottom: 2rem;
 .second_panel{
   display: flex;
   flex-direction: row;
-  height: auto;
+  width: 100%;
 
 }
 
@@ -191,16 +191,20 @@ margin-bottom: 2rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
   height: auto;
   padding: 1rem 0 1rem 1rem;
-  border-bottom-width: thin;
+  border-bottom-width: 2.5px;
   border-bottom-color: #d1d1d1;
   border-bottom-style: solid;
 }
 .container .content:first-child{
 padding: 0 0 1rem 1rem;
 }
+
+.container .content:last-child{
+background-color: #d1d1d1;
+}
+
 .right-column .container .content .image{
   width: 35%;
 }
@@ -208,4 +212,31 @@ padding: 0 0 1rem 1rem;
 .right-column .container .content .image img{
   width: 100%;
   height: auto;
+}
+
+.right-column .container .content .text{
+  display: flex;
+  width: 65%;
+  flex-direction: column;
+  text-align: justify;
+  padding: 1rem;
+}
+
+.right-column .container .content .text span.title{
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #4f4f4f;
+  text-align: left;
+}
+
+.right-column .container .content .text span.subtitle{
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  color: #4f4f4f;
+}
+
+.right-column .container .content .text span.ReadMore{
+  color: #5d99f9;
+  font-size: 1rem;
+  padding: 0.5rem 0;
 }
