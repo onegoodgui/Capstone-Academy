@@ -25,7 +25,7 @@ h2{
   display: flex;
   height: auto;
   padding: 0 1.5rem;
-  background-color: lightyellow;
+  background-color: white;
   align-items: center;
   flex-direction: row;
 }
@@ -326,7 +326,6 @@ background-color: #d1d1d1;
 .fourth_panel .content{
   display: flex;
   flex-direction: row;
-  padding: 2rem;
   border-bottom-color: #d1d1d1;
   border-bottom-width: thin;
   border-bottom-style: solid;
@@ -394,4 +393,24 @@ background-color: #d1d1d1;
 
 .textbox p{
   padding-top: 0.5rem;
+}
+
+/* Footer */
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+span.textleft{
+  flex-grow: 1;
+}
+
+span.textright{
+  flex-grow: 0;
+  padding-left: 1rem;
 }
